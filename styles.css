@@ -64,6 +64,24 @@ body > * {
 	font-weight: bold;
 }
 
+.user-greeting {
+	display: grid;
+	grid-template-columns: max-content 1fr;
+	align-items: center;
+	gap: 15px;
+}
+
+.current-user-img-med {
+	width: 8rem;
+	height: auto;
+	border-radius: 5rem;
+}
+
+.current-user-name-lg {
+	font-size: 2.8rem;
+	font-weight: bold;
+}
+
 .sidebar {
 	background-color: #d79a4b;
 	color: #000000;
