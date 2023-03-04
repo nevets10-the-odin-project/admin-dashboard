@@ -3,9 +3,14 @@
 	padding: 0;
 }
 
+html {
+	font-size: 62.5%;
+}
+
 body {
 	background-color: #252526;
 	color: #ffffff;
+	font-size: 1.8rem;
 	display: grid;
 	grid-template-columns: 1fr 8fr;
 	grid-template-rows: 1fr 10fr;
@@ -20,6 +25,21 @@ body > * {
 	grid-column: 2 / 3;
 }
 
+.search {
+	display: grid;
+	grid-template-columns: min-content 1fr;
+	gap: 15px;
+}
+
+#search_bar {
+	border-radius: 15px;
+	border-style: none;
+	height: 25px;
+	padding-left: 1rem;
+	padding-right: 0.4rem;
+	font-size: 1.8rem;
+}
+
 .sidebar {
 	background-color: #d79a4b;
 	color: #000000;
@@ -30,4 +50,12 @@ body > * {
 .main {
 	background-color: #1e1e1e;
 	grid-column: 2 / 3;
+}
+
+.icon-light {
+	fill: #ffffff;
+}
+
+.icon-dark {
+	fill: #000000;
 }
