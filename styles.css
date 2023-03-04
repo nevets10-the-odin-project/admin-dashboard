@@ -190,6 +190,34 @@ body {
 	cursor: pointer;
 }
 
+.main-aside {
+	display: grid;
+	grid-auto-rows: max-content;
+	gap: var(--space-med);
+}
+
+.announcement-container {
+	display: grid;
+	gap: var(--space-sm);
+}
+
+.announcements {
+	background-color: #333333;
+	border-radius: 1rem;
+	display: grid;
+	padding: var(--space-sm) var(--space-med);
+}
+
+.announcement-card {
+	display: grid;
+	gap: 0.5rem;
+	padding: var(--space-sm);
+}
+
+.announcement-card:not(:last-child) {
+	border-bottom: solid #999999 1px;
+}
+
 .icon-light {
 	fill: #ffffff;
 }
