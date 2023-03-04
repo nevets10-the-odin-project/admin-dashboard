@@ -10,15 +10,6 @@
 	--space-lg: 8rem;
 }
 
-body {
-	background-color: #252526;
-	color: #ffffff;
-	font-size: 1.8rem;
-	display: grid;
-	grid-template-columns: 1fr 8fr;
-	grid-template-rows: 1fr 10fr;
-}
-
 button {
 	background-color: #d79a4b;
 	border-radius: 3rem;
@@ -28,6 +19,15 @@ button {
 	width: 12rem;
 	height: 4rem;
 	cursor: pointer;
+}
+
+body {
+	background-color: #252526;
+	color: #ffffff;
+	font-size: 1.8rem;
+	display: grid;
+	grid-template-columns: 1fr 8fr;
+	grid-template-rows: 1fr 10fr;
 }
 
 .header {
