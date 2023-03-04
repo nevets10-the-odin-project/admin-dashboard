@@ -23,6 +23,11 @@ body > * {
 .header {
 	background-color: #333333;
 	grid-column: 2 / 3;
+	display: grid;
+	grid-template-columns: 1.5fr 1fr;
+	grid-template-rows: min-content;
+	align-items: center;
+	gap: 15px;
 }
 
 .search {
@@ -38,6 +43,25 @@ body > * {
 	padding-left: 1rem;
 	padding-right: 0.4rem;
 	font-size: 1.8rem;
+}
+
+.notification {
+	justify-self: end;
+	display: grid;
+	grid-template-columns: repeat(3, max-content);
+	align-items: center;
+	gap: 15px;
+}
+
+.current-user-img-sm {
+	width: 5rem;
+	height: auto;
+	border-radius: 5rem;
+}
+
+.current-user-name-med {
+	font-size: 2.1rem;
+	font-weight: bold;
 }
 
 .sidebar {
