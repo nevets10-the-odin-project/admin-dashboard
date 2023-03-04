@@ -149,6 +149,9 @@ body {
 .main {
 	background-color: #1e1e1e;
 	grid-column: 2 / 3;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	padding: var(--space-med) var(--space-med);
 }
 
 .icon-light {
