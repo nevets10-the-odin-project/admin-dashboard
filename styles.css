@@ -5,6 +5,9 @@
 
 :root {
 	font-size: 62.5%;
+	--space-sm: 1.5rem;
+	--space-med: 3rem;
+	--space-lg: 8rem;
 }
 
 body {
@@ -14,10 +17,6 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 8fr;
 	grid-template-rows: 1fr 10fr;
-}
-
-body > * {
-	padding: 10px;
 }
 
 button {
@@ -38,20 +37,25 @@ button {
 	grid-template-columns: 1fr max-content;
 	grid-template-rows: min-content;
 	align-items: center;
-	gap: 25px;
-	padding-right: 8rem;
+	gap: var(--space-med);
+	padding: var(--space-sm) var(--space-med);
 }
 
 .search {
 	display: grid;
 	grid-template-columns: min-content 1fr;
-	gap: 15px;
+	align-items: center;
+	gap: var(--space-sm);
+}
+
+.search > label {
+	height: 2.5rem;
 }
 
 #search_bar {
 	border-radius: 15px;
 	border-style: none;
-	height: 25px;
+	height: var(--space-med);
 	padding-left: 1rem;
 	padding-right: 0.4rem;
 	font-size: 1.8rem;
@@ -62,7 +66,7 @@ button {
 	display: grid;
 	grid-template-columns: repeat(3, max-content);
 	align-items: center;
-	gap: 15px;
+	gap: var(--space-sm);
 }
 
 .current-user-img-sm {
@@ -80,7 +84,7 @@ button {
 	display: grid;
 	grid-template-columns: max-content 1fr;
 	align-items: center;
-	gap: 15px;
+	gap: var(--space-sm);
 }
 
 .current-user-img-med {
@@ -97,7 +101,7 @@ button {
 .post-btns {
 	display: grid;
 	grid-template-columns: repeat(3, max-content);
-	gap: 30px;
+	gap: var(--space-med);
 }
 
 .sidebar {
