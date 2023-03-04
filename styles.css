@@ -35,10 +35,11 @@ button {
 	background-color: #333333;
 	grid-column: 2 / 3;
 	display: grid;
-	grid-template-columns: 1.5fr 1fr;
+	grid-template-columns: 1fr max-content;
 	grid-template-rows: min-content;
 	align-items: center;
-	gap: 15px;
+	gap: 25px;
+	padding-right: 8rem;
 }
 
 .search {
