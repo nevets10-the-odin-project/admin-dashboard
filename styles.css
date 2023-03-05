@@ -10,6 +10,10 @@
 	--space-lg: 8rem;
 }
 
+a {
+	color: inherit;
+}
+
 button {
 	background-color: #d79a4b;
 	border-radius: 3rem;
@@ -37,7 +41,6 @@ nav li {
 }
 
 nav a {
-	color: inherit;
 	text-decoration: none;
 	display: grid;
 	grid-template-columns: repeat(2, max-content);
@@ -174,7 +177,9 @@ body {
 	padding: var(--space-med);
 }
 
-.project-card p {
+.project-card p,
+.trending-project,
+.photo-attribute {
 	color: #cccccc;
 }
 
@@ -196,26 +201,37 @@ body {
 	gap: var(--space-med);
 }
 
-.announcement-container {
+.aside-item {
 	display: grid;
 	gap: var(--space-sm);
 }
 
-.announcements {
+.announcements,
+.trending {
 	background-color: #333333;
 	border-radius: 1rem;
 	display: grid;
 	padding: var(--space-sm) var(--space-med);
 }
 
-.announcement-card {
+.aside-card {
 	display: grid;
 	gap: 0.5rem;
 	padding: var(--space-sm);
 }
 
-.announcement-card:not(:last-child) {
+.announcement:not(:last-child) {
 	border-bottom: solid #999999 1px;
+}
+
+.trending-item {
+	display: grid;
+	grid-template-columns: repeat(2, max-content);
+	gap: var(--space-sm);
+}
+
+.photo-attribute {
+	font-size: 1.2rem;
 }
 
 .icon-light {
