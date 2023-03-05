@@ -54,7 +54,7 @@ body {
 	font-size: 1.8rem;
 	display: grid;
 	grid-template-columns: 1fr 8fr;
-	grid-template-rows: 1fr 10fr;
+	grid-template-rows: repeat(2, max-content);
 }
 
 .header {
