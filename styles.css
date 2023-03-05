@@ -54,6 +54,7 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	gap: var(--space-sm);
+	padding: var(--space-sm);
 }
 
 body {
@@ -75,6 +76,8 @@ body {
 	align-items: center;
 	gap: var(--space-med);
 	padding: var(--space-sm) var(--space-med);
+	position: relative;
+	box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 .search {
@@ -163,15 +166,23 @@ body {
 	grid-column: 2 / 3;
 	display: grid;
 	grid-template-columns: 2fr 1fr;
-	gap: var(--space-med);
-	padding: var(--space-med) var(--space-med);
+	padding-bottom: var(--space-med);
 }
 
 .main-content {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(min(30rem, 100%), 1fr));
 	grid-auto-rows: max-content;
 	gap: var(--space-sm);
+	padding-top: var(--space-med);
+	padding-left: var(--space-med);
+	padding-right: var(--space-sm);
+}
+
+.projects {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(30rem, 100%), 1fr));
+	grid-auto-rows: max-content;
+	gap: var(--space-med);
 }
 
 .main-content h2 {
@@ -184,6 +195,8 @@ body {
 	border-left: solid #d79a4b 0.75rem;
 	display: grid;
 	padding: var(--space-med);
+	position: relative;
+	box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 .project-card p,
@@ -208,6 +221,9 @@ body {
 	display: grid;
 	grid-auto-rows: max-content;
 	gap: var(--space-med);
+	padding-top: var(--space-med);
+	padding-left: var(--space-sm);
+	padding-right: var(--space-med);
 }
 
 .aside-item {
@@ -221,6 +237,8 @@ body {
 	border-radius: 1rem;
 	display: grid;
 	padding: var(--space-sm) var(--space-med);
+	position: relative;
+	box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 .aside-card {
