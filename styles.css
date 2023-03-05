@@ -38,6 +38,10 @@ button {
 	cursor: pointer;
 }
 
+path {
+	fill: #ffffff;
+}
+
 nav {
 	display: grid;
 	gap: var(--space-lg);
@@ -262,8 +266,4 @@ body {
 	display: grid;
 	grid-template-columns: repeat(2, max-content);
 	gap: var(--space-sm);
-}
-
-.icon-light {
-	fill: #ffffff;
 }
