@@ -16,6 +16,7 @@
 	--space-med: 3rem;
 	--space-lg: 8rem;
 	--orange: #d79a4b;
+	--blue: #2041a7;
 	--light-gray: #333333;
 	--lighter-gray: #cccccc;
 	font-family: "roboto";
@@ -26,9 +27,10 @@ a {
 }
 
 button {
-	background-color: var(--orange);
+	background-color: var(--blue);
 	border-radius: 3rem;
 	border-style: none;
+	color: #ffffff;
 	font-size: 1.8rem;
 	font-weight: bold;
 	width: 12rem;
@@ -146,8 +148,8 @@ body {
 }
 
 .sidebar {
-	background-color: var(--orange);
-	color: #000000;
+	background-color: var(--blue);
+	color: #ffffff;
 	grid-column: 1 / 2;
 	grid-row: 1 / 3;
 	padding-top: var(--space-sm);
