@@ -65,7 +65,7 @@ body {
 	grid-template-columns: 1fr max-content;
 	grid-template-rows: min-content;
 	align-items: center;
-	gap: var(--space-med);
+	gap: var(--space-sm);
 	padding: var(--space-sm) var(--space-med);
 	position: relative;
 	box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
