@@ -48,13 +48,21 @@ nav a {
 	gap: var(--space-sm);
 }
 
+footer {
+	background-color: #333333;
+	grid-column: 1 / -1;
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--space-sm);
+}
+
 body {
 	background-color: #252526;
 	color: #ffffff;
 	font-size: 1.8rem;
 	display: grid;
 	grid-template-columns: 1fr 8fr;
-	grid-template-rows: repeat(2, max-content);
+	grid-template-rows: repeat(3, max-content);
 }
 
 .header {
@@ -135,7 +143,7 @@ body {
 	background-color: #d79a4b;
 	color: #000000;
 	grid-column: 1 / 2;
-	grid-row: 1 / -1;
+	grid-row: 1 / 3;
 	padding-top: var(--space-sm);
 	padding-left: var(--space-sm);
 	padding-right: var(--space-lg);
@@ -231,7 +239,7 @@ body {
 }
 
 .photo-attribute {
-	font-size: 1.2rem;
+	flex: max-content;
 }
 
 .icon-light {
