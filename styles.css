@@ -58,11 +58,12 @@ footer {
 
 body {
 	background-color: #252526;
+	min-height: 100vh;
 	color: #ffffff;
 	font-size: 1.8rem;
 	display: grid;
 	grid-template-columns: 30rem 1fr;
-	grid-template-rows: repeat(3, max-content);
+	grid-template-rows: max-content 1fr max-content;
 }
 
 .header {
