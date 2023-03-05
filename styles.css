@@ -1,3 +1,10 @@
+@font-face {
+	font-family: "roboto";
+	src: url("./fonts/roboto-regular.woff2") format("woff2"), url("./fonts/roboto-regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -8,6 +15,7 @@
 	--space-sm: 1.5rem;
 	--space-med: 3rem;
 	--space-lg: 8rem;
+	font-family: "roboto";
 }
 
 a {
